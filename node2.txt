@@ -1,0 +1,37 @@
+14/3
+cài đặt : nodejs
+
+
+// try/catch
+//npm i 
+// npm i nodemon -y 
+// npm i dotenv --save
+// npm i concurrently -g
+// routes -> sử dụng express.Router
+// controllers
+
+// 1: Sử dụng vitejs để xây dựng môi trường chạy project
+
+// 2: Validate dữ liệu trước khi gửi lên server
+// 3: Đăng ký, đăng nhập ( json-server-auth )
+
+//**** Cài đặt môi trường Vitejs */
+Bước 1: npm i vite vite-plugin-node -D
+ npm i json-server-auth
+Bước 2: Tạo 1 file vite.config.js -> copy của thầy
+Bước 3: Thay đổi file package.json 
+    "dev": "concurrently vite \"json-server --watch db.json\"" 
+Bước 4: Thêm code cuối file app.js
+    export const viteNodeApp = app;
+Bước 5: npm run dev
+
+// các môi trường cần cài đặt 
+    "axios": "^1.3.4",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "mongoose": "^7.0.2",
+    "product": "^1.2.2"
+
+   

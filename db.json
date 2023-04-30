@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "name": "Nguyen Duy Hiep132",
+      "price": 20021,
+      "id": "1"
+    },
+    {
+      "name": "Duy Hiep Dep Trai",
+      "price": 3000000,
+      "id": "LBwXHSf"
+    }
+  ],
+  "users": [
+    {
+      "email": "hiepndph200447@gmail.com",
+      "password": "$2a$10$lKLMlzdicMHZHYK6iLLwWeBN4Zh2GF.6epX0Epqr6FsCiYVYr8sSK",
+      "id": 1
+    }
+  ]
+}
